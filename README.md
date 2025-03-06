@@ -34,3 +34,16 @@ This project focuses on fine-tuning a pre-trained language model for sentiment a
 2. Saving and sharing: save fine-tuned model and tokenizer, document model details in a model card.
 3. Documentation and reporting: training logs, metrics visualization and lessons learned.
 4. YouTube Walkthrough: 15-minute presentation explaining implementation and results.
+
+### Challenges and Solutions
+- Data Imbalance: Balanced dataset by sampling equal positive and negative reviews.
+- Overfitting: Adjusted dropout and weight decay.
+- Training Time: Optimized with mixed precision and batch size tuning.
+
+### Conclusion
+Fine-tuning a pre-trained transformer model significantly improves sentiment classification accuracy. The process highlights the importance of data preprocessing, model selection, and hyperparameter tuning.
+
+### References
+- Hugging Face Transformers Documentation: https://huggingface.co/docs/transformers
+- PyTorch Documentation: https://pytorch.org/docs/stable/index.html
+- IMDB Dataset: https://huggingface.co/datasets/imdb
