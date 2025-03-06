@@ -1,5 +1,8 @@
 ## Fine-Tuning LLM For Sentiment Analysis
 
+### Link for Model Artifacts!!!
+https://myharrisburgu-my.sharepoint.com/:u:/g/personal/vperuri_my_harrisburgu_edu/EfFgaY_vW9NBm6nUvx4Cs8sBTvKKUXVyDSYqNbMOa52H1Q?e=9n2kwj
+
 ### Overview
 This project focuses on fine-tuning a pre-trained language model for sentiment analysis using the IMDB dataset. The process involves loading a base model from Hugging Face, preprocessing the dataset, fine-tuning the model, evaluating its performance, and comparing results to the baseline.
 
